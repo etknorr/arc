@@ -1247,8 +1247,8 @@ def ping_cmd(
 @app.command("version")
 def version_cmd() -> None:
     """Print arc version."""
-    from pathlib import Path
     import re
+    from pathlib import Path
 
     # Read directly from pyproject.toml so git pull alone updates the version
     pyproject = Path(__file__).parent.parent.parent / "pyproject.toml"

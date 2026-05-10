@@ -10,7 +10,7 @@ from typing import TYPE_CHECKING
 import discord
 from discord import app_commands
 
-from arc.agents import load_agent, list_agents, resolve_agent_for_channel
+from arc.agents import list_agents, load_agent, resolve_agent_for_channel
 from arc.config import ArcConfig
 from arc.utils import split_message
 
@@ -161,7 +161,7 @@ class ArcDiscordBot(discord.Client):
             if not log_path.exists():
                 await interaction.response.send_message("No routing log found.", ephemeral=True)
                 return
-            raw = [l for l in log_path.read_text().strip().splitlines() if l][-last:]
+            raw = [line for line in log_path.read_text().strip().splitlines() if line][-last:]
             if not raw:
                 await interaction.response.send_message("No history yet.", ephemeral=True)
                 return
