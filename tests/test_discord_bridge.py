@@ -499,7 +499,7 @@ async def test_cron_run(config_dir: Path) -> None:
 
 
 async def test_cron_next(config_dir: Path) -> None:
-    from datetime import datetime, timezone, timedelta
+    from datetime import datetime, timedelta, timezone
     from types import SimpleNamespace
     bot, daemon = _make_bot()
     future = datetime.now(timezone.utc) + timedelta(hours=2)
