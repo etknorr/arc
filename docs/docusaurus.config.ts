@@ -27,6 +27,16 @@ const config: Config = {
       theme: {customCss: './src/css/custom.css'},
     } satisfies Preset.Options],
   ],
+  plugins: [
+    ['@signalwire/docusaurus-plugin-llms-txt', {
+      siteTitle: 'arc',
+      siteDescription: 'Lightweight agent dispatch, scheduling, and Discord integration',
+      depth: 2,
+      content: {
+        enableLlmsFullTxt: true,
+      },
+    }],
+  ],
   themeConfig: {
     image: 'img/logo.svg',
     colorMode: {defaultMode: 'light', disableSwitch: false, respectPrefersColorScheme: true},
