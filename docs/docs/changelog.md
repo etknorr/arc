@@ -4,7 +4,7 @@ title: Changelog
 sidebar_position: 1
 ---
 
-Full release notes are in [CHANGELOG.md](https://github.com/ia-eknorr/arc/blob/main/CHANGELOG.md) on GitHub.
+Full release notes are in [CHANGELOG.md](https://github.com/etknorr/arc/blob/main/CHANGELOG.md) on GitHub.
 
 ---
 
@@ -18,7 +18,7 @@ Full release notes are in [CHANGELOG.md](https://github.com/ia-eknorr/arc/blob/m
 - Graceful degradation when daemon is not running
 - LXC system service install documentation
 
-[v0.2.0]: https://github.com/ia-eknorr/arc/releases/tag/v0.2.0
+[v0.2.0]: https://github.com/etknorr/arc/releases/tag/v0.2.0
 
 ---
 
@@ -37,4 +37,4 @@ Full release notes are in [CHANGELOG.md](https://github.com/ia-eknorr/arc/blob/m
 - Shell completions for zsh, bash, fish, and PowerShell
 - Docusaurus documentation site
 
-[v0.1.0]: https://github.com/ia-eknorr/arc/releases/tag/v0.1.0
+[v0.1.0]: https://github.com/etknorr/arc/releases/tag/v0.1.0

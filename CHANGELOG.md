@@ -71,7 +71,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - **Shell completions** — Typer generates dynamic completions for zsh, bash, fish, and PowerShell via `arc --install-completion`.
 
-- **Docusaurus documentation site** — Full docs at `https://ia-eknorr.github.io/arc/` covering architecture, all CLI commands, agent/config/cron schema references, guides, and troubleshooting.
+- **Docusaurus documentation site** — Full docs at `https://etknorr.github.io/arc/` covering architecture, all CLI commands, agent/config/cron schema references, guides, and troubleshooting.
 
-[v0.2.0]: https://github.com/ia-eknorr/arc/releases/tag/v0.2.0
-[v0.1.0]: https://github.com/ia-eknorr/arc/releases/tag/v0.1.0
+[v0.2.0]: https://github.com/etknorr/arc/releases/tag/v0.2.0
+[v0.1.0]: https://github.com/etknorr/arc/releases/tag/v0.1.0
