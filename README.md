@@ -1,10 +1,10 @@
 # arc
 
-[![Lint](https://github.com/ia-eknorr/arc/actions/workflows/lint.yml/badge.svg)](https://github.com/ia-eknorr/arc/actions/workflows/lint.yml)
-[![Unit Tests](https://github.com/ia-eknorr/arc/actions/workflows/test.yml/badge.svg)](https://github.com/ia-eknorr/arc/actions/workflows/test.yml)
-[![release](https://img.shields.io/github/v/release/ia-eknorr/arc?color=orange)](https://github.com/ia-eknorr/arc/releases)
+[![Lint](https://github.com/etknorr/arc/actions/workflows/lint.yml/badge.svg)](https://github.com/etknorr/arc/actions/workflows/lint.yml)
+[![Unit Tests](https://github.com/etknorr/arc/actions/workflows/test.yml/badge.svg)](https://github.com/etknorr/arc/actions/workflows/test.yml)
+[![release](https://img.shields.io/github/v/release/etknorr/arc?color=orange)](https://github.com/etknorr/arc/releases)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
-[![docs](https://img.shields.io/badge/docs-ia--eknorr.github.io-blue)](https://ia-eknorr.github.io/arc/)
+[![docs](https://img.shields.io/badge/docs-ia--eknorr.github.io-blue)](https://etknorr.github.io/arc/)
 
 A lightweight Python CLI and daemon for agent dispatch, scheduled tasks, and Discord integration. Replaces OpenClaw with minimal code, using `acpx` for Claude Code session management and `httpx` for Ollama.
 
@@ -26,7 +26,7 @@ A lightweight Python CLI and daemon for agent dispatch, scheduled tasks, and Dis
 ## Install
 
 ```bash
-git clone git@github.com:ia-eknorr/arc.git
+git clone git@github.com:etknorr/arc.git
 cd arc
 python3 -m venv venv
 source venv/bin/activate

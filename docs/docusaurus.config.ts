@@ -6,9 +6,9 @@ const config: Config = {
   title: 'arc',
   tagline: 'Lightweight agent dispatch, scheduling, and Discord integration',
   favicon: 'img/logo.svg',
-  url: 'https://ia-eknorr.github.io',
+  url: 'https://etknorr.github.io',
   baseUrl: '/arc/',
-  organizationName: 'ia-eknorr',
+  organizationName: 'etknorr',
   projectName: 'arc',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -21,7 +21,7 @@ const config: Config = {
       docs: {
         sidebarPath: './sidebars.ts',
         routeBasePath: '/',
-        editUrl: 'https://github.com/ia-eknorr/arc/edit/main/docs/',
+        editUrl: 'https://github.com/etknorr/arc/edit/main/docs/',
       },
       blog: false,
       theme: {customCss: './src/css/custom.css'},
@@ -45,7 +45,7 @@ const config: Config = {
       logo: {alt: 'arc logo', src: 'img/logo.svg'},
       items: [
         {type: 'docSidebar', sidebarId: 'docs', position: 'left', label: 'Docs'},
-        {href: 'https://github.com/ia-eknorr/arc', label: 'GitHub', position: 'right'},
+        {href: 'https://github.com/etknorr/arc', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
@@ -63,7 +63,7 @@ const config: Config = {
         ]},
         {title: 'More', items: [
           {label: 'Changelog', to: '/changelog'},
-          {label: 'GitHub', href: 'https://github.com/ia-eknorr/arc'},
+          {label: 'GitHub', href: 'https://github.com/etknorr/arc'},
         ]},
       ],
       copyright: `Copyright © ${new Date().getFullYear()} arc. MIT License.`,
